@@ -4,28 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>番薯肥貓的世界</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        /* 設置背景樣式 */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: #ffffff;
+            background: url('https://username.github.io/repository-name/city_cat.png') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        /* 全頁面容器 */
+        .container {
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.6); /* 半透明背景 */
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 600px;
+        }
+
+        /* 主標題 */
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        /* 描述段落 */
+        p {
+            font-size: 1.2em;
+            line-height: 1.5em;
+            margin-bottom: 1em;
+        }
+
+        /* 聯絡方式 */
+        .contact {
+            font-size: 1em;
+            color: #dddddd;
+            margin-top: 1.5em;
+        }
+
+        /* 猫咪SVG圖 */
+        .cat {
+            width: 150px;
+            margin-top: 20px;
+        }
+
+        /* 超連結樣式 */
+        a {
+            color: #66ccff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <header>
+    <div class="container">
         <h1>歡迎來到番薯肥貓的世界！</h1>
-        <p>這裡充滿了可愛的番薯與肥貓故事。</p>
-    </header>
+        <p>這裡充滿了可愛的番薯肥貓故事。</p>
 
-    <section class="about">
         <h2>關於番薯肥貓</h2>
-        <p>番薯肥貓是一隻愛吃、愛睡的可愛貓咪，牠喜歡和番薯一起度過每一天。</p>
-    </section>
+        <p>番薯肥貓是一隻愛吃、愛睡的可愛貓咪，她喜歡和番薯一起度過悠閒的一天。</p>
 
-    <section class="gallery">
         <h2>肥貓的日常</h2>
-        <div class="gallery-item">吃番薯</div>
-        <div class="gallery-item">打瞌睡</div>
-        <div class="gallery-item">散步時光</div>
-    </section>
+        <ul>
+            <li>吃番薯</li>
+            <li>打瞌睡</li>
+            <li>散步時光</li>
+        </ul>
 
-    <footer>
-        <p>&copy; 2024 番薯肥貓的世界 | 聯絡方式：<a href="mailto:kuojyunliang@gmail.com">kuojyunliang@gmail.com</a></p>
-    </footer>
+        <p class="contact">© 2024 番薯肥貓的世界 | 聯絡方式：<a href="mailto:kuojyunliang@gmail.com">kuojyunliang@gmail.com</a></p>
+    </div>
 </body>
 </html>
+
